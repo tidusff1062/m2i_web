@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/registration.css">
+    <title>Inscription</title>
+</head>
+
+<body>
+    <div class="login-div">
+        <div class="logo">
+            <img src="../img/logo.png" alt="">
+    </div>
+
+    <div class="navigation">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../common/login.html">Connexion</a></li>
+                <li><a href="../common/registration.html">Inscription</a></li>
+                <li><a href="../common/search.html">Recherche</a></li>
+                <li><a href="../common/admin.html">Administration</a></li>
+            </ul> 
+        </nav>
+    </div>
+    
+    <div class="form">
+        <form action="" id=formulaire>
+
+            <div class="name">
+                <input type="text" id="name" placeholder="Nom" required >
+            </div>
+            <div class="lastname">
+                <!-- <label for="lastname">Prenom :</label> -->
+                <!-- <input type="text" id="lastname" name="lastname" required > -->
+                <input type="text" placeholder="Prenom" required>
+            </div>
+            <div class="date">
+                <input type="date" placeholder="Date de naissance" required>
+            </div>
+            <div class="mail">
+                <input type="email" placeholder="Email" required >
+            </div>
+            <div class="login">
+                <input type="login" placeholder="Identifiant" required >
+            </div>
+            <div class="password">
+                <input type="current-password" placeholder="Password" required >
+            </div>
+            
+            <button class="signin-btn">S'inscrire</button>
+
+        </form>
+    </div>
+    
+    <script src="../js/hashage.js></script>
+    <script src="../js/register.js></script>
+
+</body>
+</html>
